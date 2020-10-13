@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="¿Necesitas un nuevo sitio web? Elaboro experiencias en línea, hermosas y atractivas. Soy Luis Castro, Web Developer.">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Netflix</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+           C</span><img class="logotipo" src="img/logo-mrcode2.png" alt="logo" width="120px">
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">Tv Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">Recently Added</a>
+                <a href="#">My List</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="pelicula-principal">
+            <div class="container">
+                <h3 class="title">IRON MAN</h3>
+                <p class="description">
+                    El mundo sabe que el multimillonario Tony Stark es Iron Man, el superhéroe enmascarado. Sometido a
+                    presiones por parte del gobierno, la prensa y la opinión pública para que comparta su tecnología con
+                    el ejército
+                </p>
+                <button role="button " class="btn first-btn"><i class="fas fa-play"></i> Play</button>
+                <button role="button " class="btn"><i class="fas fa-info-circle"></i>More Information</button>
+            </div>
+        </div>
+        <div class="peliculas-recomendadas container">
+            <div class="container-title-controls">
+                <h3>Trending Nows</h3>
+                <div class="indicadores"> 
+                 
+                </div>
+            </div>
+                <div class="container-principal">
+                    <button class="flecha-izquierda" id="flecha-izquierda" role="button"><i
+                            class="fas fa-angle-left"></i></button>
+                    <div class="container-carousel">
+                        <div class="carousel">
+                            <div class="pelicula">
+                                <a href="#"><img src="img/1.png" alt="ironman"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/iron.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/3.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/4.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/5.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/6.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/7.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/8.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/9.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/2.png" alt="ironman"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/iron.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/3.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/4.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/5.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/6.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/7.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/8.png" alt="peli1"></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/9.png" alt="peli1"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="flecha-derecha" id="flecha-derecha" role="button"><i
+                            class="fas fa-angle-right"></i></i></button>
+
+                </div>
+
+            
+
+        </div>
+    </main>
+
+<footer class="footer">
+    <p>&copy; Derechos reservados <span id="date"></span></p>
+    <p>Developed by Luis Castro</p>
+</footer>
+<script>
+    const date = new Date().getFullYear();
+    document.getElementById('date').innerHTML = date;
+</script>
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
